@@ -41,13 +41,13 @@ export default function App() {
       <Main onEditAvatar={handleEditAvatarClick} onEditProfile={handleEditProfileClick} onAddPlace={handleAddPlaceClick} onCardClick={handleCardClick} />
       <Footer />
       <PopupWithForm name="edit" title="Редактировать профиль" buttonText="Сохранить" isOpen={isEditProfilePopupOpen} onClose={closeAllPopups}>
-        <input type="text" id="profile-name" name="name" className="popup__field" placeholder="Имя" required minlength="2" maxlength="40" />
+        <input type="text" id="profile-name" name="name" className="popup__field" placeholder="Имя" required minLength="2" maxLength="40" />
         <span className="popup__error profile-name-error"></span>
-        <input type="text" id="profile-about" name="about" className="popup__field" placeholder="Профессия" required minlength="2" maxlength="200" />
+        <input type="text" id="profile-about" name="about" className="popup__field" placeholder="Профессия" required minLength="2" maxLength="200" />
         <span className="popup__error profile-about-error"></span>
       </PopupWithForm>
       <PopupWithForm name="new-card" title="Новое место" buttonText="Создать" isOpen={isAddPlacePopupOpen} onClose={closeAllPopups}>
-        <input type="text" id="card-name" name="name" className="popup__field" placeholder="Название" required minlength="2" maxlength="30" />
+        <input type="text" id="card-name" name="name" className="popup__field" placeholder="Название" required minLength="2" maxLength="30" />
         <span className="popup__error card-name-error"></span>
         <input type="url" id="card-link" name="link" className="popup__field" placeholder="Ссылка на картинку" required />
         <span className="popup__error card-link-error"></span>

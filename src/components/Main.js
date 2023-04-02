@@ -42,7 +42,7 @@ export default function Main(props) {
           aria-label="Кнопка добавления карточек мест"></button>
       </section>
       <section className="elements" aria-label="Фотографии мест">
-        {cards.map(card => (<Card card={card} onCardClick={props.onCardClick}/>))}
+        {cards.map(card => (<Card key={card._id} card={card} onCardClick={props.onCardClick}/>))}
       </section>
     </main>
   )
