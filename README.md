@@ -10,15 +10,16 @@
 - [Структура каталога проекта](#ProjectStructure)
 - [Оценка качества кода](#Quality)
 - [Планы по доработке проекта](#Planes)
+- [Инструкция по запуску проекта](#Instruction)
 
 
-# Описание проекта <a id="Description"></a>
+# Описание проекта <a name="Description"></a>
 
 **Место** — самостоятельный интерактивный проект в рамках обучения на курсе "Web-разработчик" в Яндекс Практикум с использованием React. В рамках обучения для выполнения проектной работы был предоставлен макет в программе [Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1), по которому нужно было сверствать сайт.
 Проект "Место" должен корректно отображаться на экранах размеров 1280px и 320px.
 
 
-# Используемые технологии <a id="Technologies"></a>
+# Используемые технологии <a name="Technologies"></a>
 
 1. Проект реализован с помощью framework React и утилиты Create React App (CRA).
 2. Использованы функциоанльные и классовые компоненты, хуки.
@@ -39,32 +40,14 @@
 14. Добавлена возможность редактировать данные ползователя.
 15. Для получения значений инпутов использован как рефы, так и управляемые копоненты.
 
-# Оценка качества кода <a id="Quality"></a>
+# Оценка качества кода <a name="Quality"></a>
 Качество кода обусловлено его проверкой по чек-листу Яндекс Практикума, автоматическими проверками и код-ревью специалистом Яндекс Практикума.
 
-# Планы по доработке проекта <a id="Planes"></a>
+# Планы по доработке проекта <a name="Planes"></a>
 - сделать фалидацию форм.
 - добавить индикатор запросов.
 - добавить попап подтверждения удаления карточки с местом.
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-
+# Инструкция по запуску проекта <a name="Instruction"></a>
+- Клонируем репозиторий себе на ПК;
+- В терминале поочередно вписываем команды: npm install --> npm run build --> npm run dev
